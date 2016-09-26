@@ -28,6 +28,13 @@ import { MultilingualService } from './app/frameworks/i18n/services/multilingual
 // custom i18n language support
 MultilingualService.SUPPORTED_LANGUAGES = AppConfig.SUPPORTED_LANGUAGES;
 
+//Layout
+import { FooterComponent } from './app/components/layout/footer/footer.component';
+import { QuickSidebarComponent } from './app/components/layout/quick-sidebar/quick-sidebar.component';
+import { SidebarComponent } from './app/components/layout/sidebar/sidebar.component';
+import { TopNavigationBarComponent } from './app/components/layout/top-navigation-bar/top-navigation-bar.component';
+
+
 let routerModule = RouterModule.forRoot(routes);
 
 if (String('<%= TARGET_DESKTOP %>') === 'true') {
@@ -51,7 +58,12 @@ if (String('<%= TARGET_DESKTOP %>') === 'true') {
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    //Layout
+    FooterComponent,
+    QuickSidebarComponent,
+    SidebarComponent,
+    TopNavigationBarComponent
   ],
   providers: [
     {
