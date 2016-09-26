@@ -63,3 +63,11 @@ ChromeDebugger-UserData
 
 # OS X trash files
 .DS_Store
+
+
+src/client/assets/calendar
+src/client/assets/global
+src/client/assets/images
+src/client/assets/layouts
+src/client/assets/pages
+src/client/assets/plugins
