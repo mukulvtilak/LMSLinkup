@@ -34,6 +34,8 @@ import { QuickSidebarComponent } from './app/components/layout/quick-sidebar/qui
 import { SidebarComponent } from './app/components/layout/sidebar/sidebar.component';
 import { TopNavigationBarComponent } from './app/components/layout/top-navigation-bar/top-navigation-bar.component';
 
+//RMS
+import { DashboardComponent } from './app/components/dashboard/dashboard.component';
 
 let routerModule = RouterModule.forRoot(routes);
 
@@ -63,7 +65,9 @@ if (String('<%= TARGET_DESKTOP %>') === 'true') {
     FooterComponent,
     QuickSidebarComponent,
     SidebarComponent,
-    TopNavigationBarComponent
+    TopNavigationBarComponent,
+    //RMS
+    DashboardComponent
   ],
   providers: [
     {

@@ -1,11 +1,9 @@
-// angular
-import { Routes } from '@angular/router';
+import { Route } from '@angular/router';
+import { AppComponent } from './app.component';
 
-// app
-import { HomeRoutes } from '../home/home.routes';
-import { AboutRoutes } from '../about/about.routes';
-
-export const routes: Routes = [
-  ...HomeRoutes,
-  ...AboutRoutes
+export const AppRoutes: Route[] = [
+  {
+    path: '',
+    component: AppComponent
+  }
 ];
