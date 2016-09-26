@@ -51,7 +51,7 @@ app.on('ready', () => {
     console.log(`Page navigated: ${url}`);
   });
 
-  let appTitle: string = `Angular 2 Seed Advanced`;
+  let appTitle: string = `RMS `;
 
   let langMenu: any = {
     label: 'Language',
@@ -123,7 +123,7 @@ app.on('ready', () => {
         }, {
           type: 'separator'
         }, {
-          label: 'Hide Angular 2 Seed Advanced',
+          label: 'Hide RMS',
           accelerator: 'Command+H',
           selector: 'hide:'
         }, {

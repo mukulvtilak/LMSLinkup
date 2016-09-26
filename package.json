@@ -1,7 +1,7 @@
 {
-  "name": "angular2-seed-advanced",
+  "name": "rms",
   "version": "0.0.0",
-  "description": "Advanced seed for Angular 2 apps",
+  "description": "Recruitment Management System",
   "repository": {
     "url": "https://github.com/NathanWalker/angular2-seed-advanced"
   },

@@ -125,7 +125,7 @@ function createSymLink() {
  */
 function displayFinalHelp()
 {
-    console.log("------------------------ Angular 2 Seed Advanced is Now Ready ----------------------------");
+    console.log("------------------------ RMS Advanced is Now Ready ----------------------------");
     console.log("");
     console.log("Run your web app with:");
     console.log("  npm start");

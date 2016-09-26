@@ -5,7 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 // app
-import { AppComponent } from './app/components/app.component';
+//import { AppComponent } from './app/components/app.component';
+import { AppComponent } from './app/components/app/app.component';
 import { HomeComponent } from './app/components/home/home.component';
 import { AboutComponent } from './app/components/about/about.component';
 import { routes } from './app/components/app.routes';
