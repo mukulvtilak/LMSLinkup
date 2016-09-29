@@ -3,7 +3,7 @@ import { AppComponent } from './app.component';
 
 export const AppRoutes: Route[] = [
   {
-    path: '',
+    path: 'app',
     component: AppComponent
   }
 ];

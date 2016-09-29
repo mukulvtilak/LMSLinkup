@@ -8,9 +8,8 @@ import { DashboardRoutes } from './dashboard/dashboard.routes';
 import { AppRoutes } from './app/app.routes';
 
 export const routes: Routes = [
-  //...HomeRoutes,
+  ...HomeRoutes,
   ...AppRoutes,
   ...AboutRoutes,
-  ...AppRoutes,
   ...DashboardRoutes
 ];
