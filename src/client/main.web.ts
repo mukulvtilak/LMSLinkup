@@ -24,3 +24,10 @@ if (String('<%= ENV %>') === 'prod' || String('<%= TARGET_DESKTOP_BUILD %>') ===
   // const options: any = { providers };
   platformBrowserDynamic().bootstrapModule(WebModule/*, options*/);
 // });
+
+if ('serviceWorker' in navigator) {
+  (<any>navigator).serviceWorker.register('./worker.js').then((registration: any) =>
+      console.log('ServiceWorker registration successful with scope: ', registration.scope))
+    .catch((err: any) =>
+      console.log('ServiceWorker registration failed: ', err));
+}
